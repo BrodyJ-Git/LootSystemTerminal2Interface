@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Brody">
+   <link rel="stylesheet" href="/css/style.css">
+  <title>Loot System</title>
+</head>
+<body>
+    <h1>Loot System</h1>
+
+    <h2>Add Loot</h2>
+    <div>
+        <label for="name">Loot Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="itemValue">Value:</label>
+        <input type="number" id="itemValue" name="value">
+
+        <button id="add">Add Loot</button>
+        <p id="warning"></p>
+    </div>
+
+    <h2>Loot Collected</h2>
+    <div>
+        <p id="loot"></p>
+    </div>
+
+    <h2>Total Loot Value</h2>
+    <div>
+        <p id="total"></p>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
